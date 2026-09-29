@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Little Lemon",
+    "slug": "little-lemon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/hero-image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#495E57"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.littlelemon.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Little Lemon uses your photo library so you can set a profile picture."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.littlelemon.app"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
